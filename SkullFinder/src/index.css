@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.shownBoardItem {
+    border: 1px;
+    background-color: rgb(231, 218, 231);
+    width: 5rem;
+    height: 5rem;
+    font-size: 1em;
+}
+
+.hiddenBoardItem {
+    border: 1px;
+    background-color: rgb(168, 157, 170);
+    width: 5rem;
+    height: 5rem;
+}
+
+.ResetButton {
+    border: 1px;
+    background-color: rgb(255, 161, 161);
+    width: 5rem;
+    height: 5rem;
+    font-size: 1em;
+}
+
+table {
+    border-spacing: 1rem;
+}
+
+td {
+    padding: 0.5rem;
+}
